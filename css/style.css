@@ -1,4 +1,4 @@
-  body {
+body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
@@ -8,12 +8,57 @@
     flex: 1 0 auto;
   }
 
-   .logo {
-  	width: 160px;
-  	height: 70px;
+  body {
+    background: #fff;
   }
 
-  .imagen{
-    height: 100%;
-    width: 100%
+  .input-field input[type=date]:focus + label,
+  .input-field input[type=text]:focus + label,
+  .input-field input[type=email]:focus + label,
+  .input-field input[type=password]:focus + label {
+    color: #e91e63;
   }
+
+  .input-field input[type=date]:focus,
+  .input-field input[type=text]:focus,
+  .input-field input[type=email]:focus,
+  .input-field input[type=password]:focus {
+    border-bottom: 2px solid #e91e63;
+    box-shadow: none;
+  }
+
+
+
+
+  .jain-container .navbar-default{
+    position: absolute;
+    top: 0;
+    background-color: transparent;
+    border: none;
+  }
+
+  .media-carousel .carousel-control{
+    height: 0;
+    top: 50%;
+  }
+
+  .media-carousel .carousel-control i{
+    width: 40px;
+    height: 40px;
+    border-radius: 80%;
+    background-color: #000000;
+    padding: 10px;
+    vertical-align: middle;
+  }
+
+  .imagen3 {
+    width: 500%;
+    height: 100%;
+  }
+
+
+
+/*
+  .navbar-nav.nav li a {
+    color: #fff;
+    }*/
